@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRAFTON</title>
+    <link rel="stylesheet" href="style.css">
+   
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <h2 class="logo"><a href="#">CRAFTON.</a></h2>
+        <input type="checkbox" id="menu-toggler">
+        <label for="menu-toggler" id="hamburger-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white" width="24px" height="24px">
+            <path d="M0 0h24v24H0z" fill="none"/>
+            <path d="M3 18h18v-2H3v2zm0-5h18V11H3v2zm0-7v2h18V6H3z"/>
+          </svg>
+        </label>
+        <ul class="all-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#shop">Shop</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="homepage" id="home">
+      <div class="content">
+        <div class="text">
+          <h1>Explore The World Of Craft.</h1>
+          <p>
+            Craft your dreams into reality with our curated collection of artisanal supplies. Let creativity flourish with every stitch, brushstroke, and embellishment.</p>
+        </div>
+        <a href="#products">Our Products</a>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <h2>Our Products</h2>
+      <p>Explore our wide range of handmade gifts and crafts.</p>
+      <ul class="cards">
+        <li class="card">
+          <img src="tote1bag.jpg" alt="img">
+          <h3>Totebags</h3>
+          <p>Elevate your style with artisan-crafted tote bags, each stitch woven with care and creativity.</p>
+        </li>
+        <li class="card">
+          <img src="tshirt.jpg" alt="img">
+          <h3>Customized T-shirt</h3>
+          <p>Wear your story, express your essence with our customized T-shirt</p>
+        </li>
+        <li class="card">
+          <img src="jewe.jpg" alt="img">
+          <h3>Handmade Jewelleries</h3>
+          <p>Adorn yourself with elegance and uniqueness, each piece handcrafted with passion and precision.</p>
+        </li>
+        <li class="card">
+          <img src="card.jpg" alt="img">
+          <h3>Greeting Cards</h3>
+          <p>Send heartfelt wishes with our personalized greeting cards, each crafted to capture the essence of your sentiments. </p>
+        </li>
+        <li class="card">
+          <img src="frame.jpg" alt="img">
+          <h3>Personalized Frames</h3>
+          <p>Frame your memories in style with our personalized frames, each designed to preserve your cherished moments in time.</p>
+        </li>
+        <li class="card">
+          <img src="image.jpg" alt="img">
+          <h3>Painted Artwork</h3>
+          <p>Capture life's beauty on canvas with our exquisite painted artwork, each stroke a testament to passion and creativity</p>
+        </li>
+      </ul>
+    </section>
+
+    
+
+    <section class="about" id="about">
+      <h2>About Us</h2>
+      <p>Spreading Happiness since 2021.</p>
+      <div class="row company-info">
+        <h3>Our Story</h3>
+        <p>Inspired by a passion for creativity and a love for heartfelt gestures, our journey began with a simple idea: to infuse everyday moments with the warmth of handmade treasures. With dedication and craftsmanship, we've woven stories into each creation, crafting personalized gifts that speak volumes and create lasting memories for those we serve.</p>
+      </div>
+      <div class="row mission-vision">
+        <h3>Our Mission</h3>
+        <p>At the heart of our mission lies a dedication to spreading joy through the artistry of handmade gifts, enriching lives with the warmth of personalized creations. With every meticulously crafted item, we aim to evoke smiles, create lasting memories, and kindle the spirit of giving, fostering happiness that transcends the ordinary.</p>
+        <h3>Our Vision</h3>
+        <p>Our vision is empowering creativity, fostering connections, and celebrating craftsmanship, our vision is to curate a vibrant online marketplace where artisans and craft enthusiasts converge to explore, inspire, and share the beauty of handmade creations, enriching lives one artisanal treasure at a time.</p>
+      </div>
+      <div class="row team">
+        <h3>Our Team</h3>
+        <ul>
+          <li>Taha Yasmin- Founder and CEO</li>
+          <li>Taha Yasmin- Artist</li>
+          <li>Kareem Habib- Customer Representative</li>
+          <li>Albert Kroos - Product Manager</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <h2>Order Now</h2>
+      <p>Reach out to us to our store.</p>
+      <div class="row">
+        <div class="col information">
+          <div class="contact-details">
+            <p><i class="fas fa-map-marker-alt"></i> 123 Market Square,Olivia,WA 7890012</p>
+            <p><i class="fas fa-envelope"></i> info@craftonhelp.com</p>
+            <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+            <p><i class="fas fa-clock"></i> Monday - Friday: 9:00 AM - 5:00 PM</p>
+            <p><i class="fas fa-clock"></i> Sunday: Closed</p>
+            <p><i class="fas fa-globe"></i> www.craftonhappiness.com</p>
+          </div>          
+        </div>
+        <div class="col form">
+          <form>
+            <input type="text" placeholder="Name*" required>
+            <input type="email" placeholder="Email*" required>
+            <input type="email" placeholder="Phone*" required>
+            <p>Choose Product</p>
+            <select id="category">
+                <option value="art">Totebags</option>
+                <option value="crafts">Greeting Cards</option>
+                <option value="jewelry">Personalized Jewellary</option>
+                <option value="handmade">Handmade Frames</option>
+                <option value="handmade">Painted Artwork</option>
+                <option value="handmade">Customized T-shirt</option>
+              </select>
+              <p>Choose a Payment Method</p>
+              <select id="category">
+                <option value="art">UPI</option>
+                <option value="crafts">Debit/Credit Cards</option>
+                <option value="jewelry">Net Banking</option>
+                <option value="handmade">Cash on Delivery</option>
+              </select>
+
+            <textarea placeholder="Address*" required></textarea>
+            <button id="submit" type="submit">Order Now</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div>
+        <span>Copyright © 2023 All Rights Reserved</span>
+        <span class="link">
+            <a href="#">Home</a>
+            <a href="#contact">Contact</a>
+        </span>
+      </div>
+    </footer>
+
+  </body>
+</html>
